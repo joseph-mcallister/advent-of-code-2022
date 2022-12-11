@@ -15,6 +15,7 @@ for pack in raw_input.split("\n"):
     score += letter_mapping[dup_item]
 print(score)
 
+### Part 2 ###
 score = 0
 packs = raw_input.split("\n")
 for i in range(int(len(packs) / 3)):
